@@ -6,8 +6,8 @@ on:
 
 env:
   # Device env
-  DEVICE_NAME : "redmi_k20_pro"
-  DEVICE_CODENAME : "raphael"
+  DEVICE_NAME : "xiaomi_9_pro"
+  DEVICE_CODENAME : "crux"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LLVM=1 LLVM_IAS=1 LD=ld.lld"
