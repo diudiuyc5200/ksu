@@ -30,14 +30,14 @@ env:
   DEFCONFIG_FROM_BOOT: false
 
   KERNELSU_SOURCE : "https://github.com/rsuntk/KernelSU.git"
-  KERNELSU_BRANCH : "main"
+  KERNELSU_BRANCH : "deprecated/susfs-main"
 
   KERNELSU_AUTO_GET : "false"
   KERNELSU_AUTO_FORK : "sukisu" # magic, rsuntk , next and sukisu
 
   SUSFS_ENABLE : true
   SUSFS_FIXED : true
-  SUSFS_UPDATE : false
+  SUSFS_UPDATE : true
 
   AK3_SOURCE : "https://github.com/SOVIET-ANDROID/AnyKernel3.git"
   AK3_BRANCH : "master"
